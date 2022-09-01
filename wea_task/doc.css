@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0.3em 0.3em;
+  background-color: rgb(230, 248, 247);
+}
+.cointainer {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+}
+.name {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  color: brown;
+}
+.date-time {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.display-date,
+.display-time {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: brown;
+}
+.show {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: brown;
+}
+.n{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.de{
+    font-weight: bold;
+    font-size: 1em;
+}
+.info {
+  justify-content: center;
+  align-items: center;
+}
+.textarea {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(182, 180, 180);
+  color: black;
+  font-size: 1.2em;
+  font-weight: bolder;
+  border: 2px solid rgb(93, 93, 243);
+  border-radius: 10px 0px 10px 0px;
+}
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.action {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(211, 211, 218);
+  color: black;
+}
+.ADD {
+  border: 1px solid rgb(103, 161, 236);
+  border-radius: 5px;
+  background-color: rgb(211, 211, 218);
+  color: black;
+}
+.clear {
+  border: 1px solid rgb(103, 161, 236);
+  border-radius: 5px;
+  background-color: rgb(211, 211, 218);
+  color: black;
+}
+.ADD:hover {
+  color: red;
+  font-weight: bolder;
+  background-color: black;
+  cursor: pointer;
+}
+.clear:hover {
+  color: red;
+  font-weight: bolder;
+  background-color: black;
+  cursor: pointer;
+}
+.action:hover {
+  color: red;
+  
+  background-color: black;
+  cursor: pointer;
+}
+.table {
+  width: 100%;
+  display: table;
+  font-size: 1em;
+  font-weight: bold;
+}
+.display {
+  background-color: rgba(17, 17, 16, 0.658);
+}
+.t td {
+  background-color: darkgray;
+  text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  .table {
+    font-size: 0.4em;
+  }
+  .action {
+    font-weight: bolder;
+    font-size: 0.9em;
+  }
+  .ADD:hover {
+    color: red;
+    font-weight: bolder;
+    background-color: black;
+    cursor: pointer;
+  }
+  .clear:hover {
+    color: red;
+    font-weight: bolder;
+    background-color: black;
+    cursor: pointer;
+  }
+  .action:hover {
+    color: red;
+    font-weight: bolder;
+    background-color: black;
+    cursor: pointer;
+  }
+  .name {
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  .display-date,
+  .display-time {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: brown;
+  }
+  .show {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: brown;
+  }
+}

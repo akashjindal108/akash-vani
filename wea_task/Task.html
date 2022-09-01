@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskLister</title>
+    <link rel="stylesheet" href="doc.css">
+</head>
+
+<body>
+    <div class="cointainer">
+        <div class="name">
+           <u> TASK-LISTER </u>
+        </div>
+        <div class="date-time">
+            <div class="date">
+               <u> <p class="display-date" id="display-date">date </p></u>
+            </div>
+            <div class="time">
+               <u> <p class="display-time" id="display-time">time</p></u>
+            </div>
+        </div>
+        <div class="additems">
+            
+            <div class="info">
+                <div>
+                    <p class="n">TASK TITLE</p>
+                    <textarea name="title" id="title" cols="130" rows="2" placeholder="TASK TITLE" class="textarea"
+                        id="re" required></textarea>
+                </div>
+                <br>
+                <p class="de">DESCRIPTION</p>
+                <textarea name="desc" id="description" cols="130" rows="10" placeholder="TASK DESCRIPTION HERE"
+                    class="textarea" id="re" required></textarea>
+                <h3><u>DEADLINE </u></h3><input type="date" class="textareadate" id="dead">
+                <br>
+                <br>
+                <div class="btns">
+                    <button class="ADD" type="submit" id="add">ADD TO LIST</button>
+                    <button class="clear" id="clear" onclick="clearStorage()">CLEAR LIST</button>
+                </div>
+            </div>
+        </div>
+        
+        <div><p class="show">TASK QUEUE</p></div>
+        <div class="display">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">TASK NO</th>
+                        <th>DATE</th>
+                        <th scope="col">TASK</th>
+                        <th scope="col">DESCRIPTION</th>
+                        <th>DEADLINE</th> 
+                        <th>ACTIONS</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody" class="t">
+                    <tr>
+                        <td style="color: black ; font-size: medium;">1</td>
+                        <td>DEMO</td>
+                        <td>DEMO</td>
+                        <td>DEMO </td>
+                        <td>DEMO</td>
+                        <td class="btn"><button class="action" id="cl"><b>CHED</b> </button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="footer">
+
+
+        </div>
+    </div>
+    <script src="DOC.js"></script>
+</body>
+
+</html>

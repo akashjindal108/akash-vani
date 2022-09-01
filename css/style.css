@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: black;
+  font-size: 16px;
+  background: url("https://thumbs.dreamstime.com/b/clouds-blue-sky-white-beautiful-41660279.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.t {
+  margin-left: 2em;
+  margin-top: 0;
+  display: block;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+.all {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.cointainer {
+  background-color: black;
+  opacity: 0.7;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  width: 100vw;
+  max-width: 19em;
+  height: 73vh;
+  font-family: "Akaya Kanadaka", cursive;
+  font-size: 1em;
+  color: rgb(71, 240, 37);
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  border: none;
+  outline: none;
+
+}
+input.search {
+  padding-left: 1em;
+  border-radius: 1em;
+  color: rgb(232, 232, 238);
+  font-weight: bold;
+  width: 100%;
+  height: 2.3em;
+  margin-top: 1em;
+  background-color: dimgray;
+  font-size: 0.8em;
+  justify-content: center;
+  border: 1px solid blue;
+}
+
+button {
+  border-radius: 25%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: 1em;
+  margin-top: 1em;
+  height: 2.5em;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+button:hover {
+  background-color: rgb(192, 188, 188);
+}
+
+.info {
+  padding-left: 1em;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+h2.city {
+  margin: 0.5em;
+  margin-left: 0;
+}
+.icon-display {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+.cloud {
+  margin-right: 0.5em;
+}
+.humidity{
+    margin-bottom: 1em;
+}
+@media only screen and (max-width: 500px) {
+  .all {
+    width: 100vw;
+    font-size: 0.8em;
+  }
+  .cointainer {
+    width: 80vw;
+    font-size: 1em;
+  }
+  .info{
+    font-size: 1.4em;
+}
+input.search{
+  margin-top: 1.5em;
+}
+}
+@media only screen and (max-width:790px)
+{
+    .cointainer{
+        font-size: 1.2em;
+    }
+    .btn{
+        margin-top: 1.5em;
+    }
+    
+    
+}
